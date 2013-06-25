@@ -1,0 +1,37 @@
+
+
+Started GET "/hello" for 127.0.0.1 at 2013-06-25 10:53:53 -0600
+Connecting to database specified by database.yml
+Processing by HelloController#index as HTML
+  Rendered hello/index.erb within layouts/application (2.9ms)
+Compiled hello.css  (14ms)  (pid 76975)
+Compiled application.css  (46ms)  (pid 76975)
+Compiled jquery.js  (2ms)  (pid 76975)
+Compiled jquery_ujs.js  (0ms)  (pid 76975)
+Compiled hello.js  (74ms)  (pid 76975)
+Compiled application.js  (141ms)  (pid 76975)
+Completed 200 OK in 293ms (Views: 292.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 10:53:53 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/hello.css?body=1" for 127.0.0.1 at 2013-06-25 10:53:53 -0600
+Served asset /hello.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 10:53:53 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 10:53:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 10:53:53 -0600
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2013-06-25 10:53:53 -0600
+Served asset /hello.js - 304 Not Modified (2ms)
